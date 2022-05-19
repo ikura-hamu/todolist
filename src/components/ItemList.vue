@@ -51,7 +51,7 @@ const addItem = () => {
         期限
         <input v-model="newItemDeadline" type="time" />
       </label>
-      <button @click="addItem">add</button>
+      <button @click="addItem">追加</button>
     </div>
   </div>
 </template>
